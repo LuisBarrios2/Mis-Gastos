@@ -1,6 +1,6 @@
 /* Mis Gastos — guarda la app en el dispositivo para usarla sin conexión.
    No guarda ni envía tus datos: estos viven en IndexedDB del navegador. */
-const CACHE = 'mis-gastos-1.2.0';
+const CACHE = 'mis-gastos-1.3.0';
 const ARCHIVOS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
